@@ -5,7 +5,10 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    <p>Copyright © ThunderHouse. All rights reserved 2023</p>
+                    <p>
+                        © {new Date().getFullYear()} ThunderHouse. All rights
+                        reserved.
+                    </p>
                 </div>
             </div>
         </footer>

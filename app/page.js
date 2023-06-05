@@ -72,8 +72,8 @@ export default function Home() {
                     <div className="hero">
                         <div className="hero__content">
                             <h1>
-                                Bringing Innovations to Fruition Faster and More
-                                Cost Effectively
+                                Bringing Significant Innovations to Fruition.
+                                <span> Faster and Cost Effectively.</span>
                             </h1>
                             <p>
                                 Thunderhouse LLC is a Venture Group dedicated to
@@ -134,11 +134,14 @@ export default function Home() {
                                         src="/images/process-icon-2.svg"
                                         alt="icon"
                                     />
-                                    <h3>AI powered</h3>
+                                    <h3>How We Think</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Etiam vitae posuere
-                                        nisl. In
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Explicabo, corporis
+                                        at! Cumque asperiores esse inventore
+                                        placeat delectus eos. Incidunt
+                                        voluptates porro, optio eveniet
+                                        explicabo voluptate atque totam.
                                     </p>
                                 </div>
 
@@ -147,11 +150,14 @@ export default function Home() {
                                         src="/images/process-icon-2.svg"
                                         alt="icon"
                                     />
-                                    <h3>AI powered</h3>
+                                    <h3>What We Do</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Etiam vitae posuere
-                                        nisl. In
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Explicabo, corporis
+                                        at! Cumque asperiores esse inventore
+                                        placeat delectus eos. Incidunt
+                                        voluptates porro, optio eveniet
+                                        explicabo voluptate atque totam.
                                     </p>
                                 </div>
 
@@ -160,11 +166,14 @@ export default function Home() {
                                         src="/images/process-icon-2.svg"
                                         alt="icon"
                                     />
-                                    <h3>AI powered</h3>
+                                    <h3>How We Work</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Etiam vitae posuere
-                                        nisl. In
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Explicabo, corporis
+                                        at! Cumque asperiores esse inventore
+                                        placeat delectus eos. Incidunt
+                                        voluptates porro, optio eveniet
+                                        explicabo voluptate atque totam.
                                     </p>
                                 </div>
 
@@ -173,11 +182,14 @@ export default function Home() {
                                         src="/images/process-icon-2.svg"
                                         alt="icon"
                                     />
-                                    <h3>AI powered</h3>
+                                    <h3>Who We Are</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Etiam vitae posuere
-                                        nisl. In
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Explicabo, corporis
+                                        at! Cumque asperiores esse inventore
+                                        placeat delectus eos. Incidunt
+                                        voluptates porro, optio eveniet
+                                        explicabo voluptate atque totam.
                                     </p>
                                 </div>
 
@@ -186,11 +198,14 @@ export default function Home() {
                                         src="/images/process-icon-2.svg"
                                         alt="icon"
                                     />
-                                    <h3>AI powered</h3>
+                                    <h3>Our Legacy</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Etiam vitae posuere
-                                        nisl. In
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Explicabo, corporis
+                                        at! Cumque asperiores esse inventore
+                                        placeat delectus eos. Incidunt
+                                        voluptates porro, optio eveniet
+                                        explicabo voluptate atque totam.
                                     </p>
                                 </div>
                             </div>
