@@ -73,7 +73,7 @@ export default function Home() {
                         <div className="hero__content">
                             <h1>
                                 Bringing Significant Innovations to Fruition.
-                                <span> Faster and Cost Effectively.</span>
+                                <span> Faster & More Cost Effectively.</span>
                             </h1>
                             <p>
                                 Thunderhouse LLC is a Venture Group dedicated to
@@ -118,14 +118,13 @@ export default function Home() {
                                 The #1 challenge of all businesses is
                                 sustainable growth
                             </h2>
-                            <p>
-                                We use the latest technologies and tools to
-                                ensure that our solutions are scalable,
-                                efficient, and secure. Our team follows agile
-                                methodologies to deliver projects on time and on
-                                budget, while maintaining the highest standards
-                                of quality and user experience.
-                            </p>
+
+                            <h2>Innovation Drives Sustainable Growth</h2>
+
+                            <h2>
+                                The Growth Imperative is Greater Today Than
+                                Ever!
+                            </h2>
                         </div>
                         <div className="process__right">
                             <div className="process__list">

@@ -306,12 +306,12 @@ footer {
 }
 
 .hero__content {
-    max-width: 1100px;
+    max-width: 1200px;
     width: 100%;
 }
 
 .hero__content h1 {
-    font-size: 78px;
+    font-size: 74px;
     line-height: 1.2;
     font-weight: 600;
     margin-bottom: 30px;
@@ -385,6 +385,10 @@ footer {
     font-size: 32px;
     font-weight: 400;
     padding-right: 20px;
+}
+
+.process__left h2:last-of-type {
+    margin-bottom: 0;
 }
 
 .process__right {
@@ -499,6 +503,10 @@ footer {
     .single__hero-image {
         width: 380px;
         min-width: 380px;
+    }
+
+    .hero__content {
+        max-width: 1100px;
     }
 
     .hero__content h1 {
