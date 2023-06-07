@@ -115,8 +115,8 @@ export default function Home() {
                     <div className="process">
                         <div className="process__left">
                             <h2>
-                                The #1 challenge of all businesses is
-                                sustainable growth
+                                The #1 Challenge of all Organizations Is
+                                Sustainable Growth in Value
                             </h2>
 
                             <h2>Innovation Drives Sustainable Growth</h2>
