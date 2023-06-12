@@ -9,8 +9,6 @@ const Header = () => {
 
     const pathname = usePathname();
 
-    console.log(pathname);
-
     // Set Menu Items
     const menuItems = [
         { label: "Home", link: "/" },

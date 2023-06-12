@@ -4,10 +4,13 @@ import React, { useEffect } from "react";
 import Blog from "./Blog";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { usePathname } from "next/navigation";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
+    const pathname = usePathname();
+
     useEffect(() => {
         const projectArea = document.querySelectorAll(
             ".projects__area .section__heading, .projects"
@@ -23,12 +26,11 @@ const Footer = () => {
                 scrollTrigger: {
                     trigger: project,
                     start: "top 80%",
-                    end: "bottom 80%",
                     toggleActions: "play none none none",
                 },
             });
         });
-    }, []);
+    }, [pathname]);
 
     return (
         <>
