@@ -278,6 +278,9 @@ footer {
 .hero__area {
     position: relative;
     overflow: hidden;
+}
+
+.hero__area--fade {
     opacity: 0;
 }
 
@@ -486,6 +489,80 @@ footer {
 
 /* Footer Area */
 
+/* Legacy Page */
+.other__hero-area {
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.other__hero-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 1300px;
+    background-image: linear-gradient(
+            134deg,
+            rgba(14, 14, 14, 0.7),
+            rgba(14, 14, 14, 0.4) 17%,
+            rgba(14, 14, 14, 0.25) 50%
+        ),
+        url(../public/images/other-hero-gradient.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    z-index: 5;
+}
+
+.other__hero {
+    position: relative;
+    padding-top: 180px;
+    z-index: 50;
+}
+
+.single__content {
+    margin-bottom: 150px;
+}
+
+.single__content:last-of-type {
+    margin-bottom: 0;
+}
+
+.single__content h1,
+.single__content h2 {
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.single__content h1 span,
+.single__content h2 span {
+    display: block;
+    font-style: italic;
+}
+
+.single__content p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.single__content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.single__content-image {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.single__content-image img {
+    object-fit: cover;
+}
+
+/* Legacy Page */
+
 /* Responsive Code */
 @media (max-width: 1549.98px) {
     .nav__container {
@@ -540,6 +617,22 @@ footer {
 
     .single__project-image {
         height: 245px;
+    }
+
+    .single__content h1,
+    .single__content h2 {
+        font-size: 46px;
+        line-height: 1.35;
+        margin-bottom: 25px;
+    }
+
+    .single__content-image {
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    .single__content p {
+        font-size: 20px;
     }
 }
 
@@ -651,7 +744,7 @@ footer {
     }
 
     .single__project-image {
-        height: 270px;
+        height: 230px;
     }
 
     .single__project-content h3 {
@@ -682,6 +775,29 @@ footer {
 
     .hero__images-wrapper {
         margin-top: 100px;
+    }
+
+    .single__content h1,
+    .single__content h2 {
+        font-size: 28px;
+        line-height: 1.35;
+        margin-bottom: 20px;
+    }
+
+    .single__content-image {
+        margin-top: 30px;
+    }
+
+    .single__content p {
+        font-size: 18px;
+    }
+
+    .single__content {
+        margin-bottom: 100px;
+    }
+
+    .single__content-image {
+        height: 230px;
     }
 }
 /* Responsive Code */

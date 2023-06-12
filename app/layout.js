@@ -5,6 +5,7 @@ import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
+// Meta Data
 export const metadata = {
     title: "thunderhouse | Home page",
     description: "Home page thunderhouse",
