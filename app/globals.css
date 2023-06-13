@@ -493,7 +493,6 @@ footer {
 .other__hero-area {
     position: relative;
     overflow: hidden;
-    opacity: 0;
 }
 
 .other__hero-bg {
@@ -522,7 +521,15 @@ footer {
 }
 
 .single__content {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+}
+
+.single__content .single__content-subhead {
+    margin-top: 30px;
+}
+
+.single__content .single__content-subhead:first-of-type {
+    margin-top: 0;
 }
 
 .single__content:last-of-type {
@@ -544,7 +551,6 @@ footer {
 }
 
 .single__content p {
-    font-size: 22px;
     margin-bottom: 20px;
 }
 
@@ -553,8 +559,12 @@ footer {
 }
 
 .single__content-image {
-    margin-top: 50px;
-    height: 600px;
+    margin-top: 30px;
+    height: 400px;
+}
+
+.single__content-image:last-of-type {
+    margin-bottom: 0;
 }
 
 .single__content-image img {
