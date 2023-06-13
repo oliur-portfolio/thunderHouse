@@ -661,18 +661,16 @@ footer {
     .projects {
         grid-template-columns: repeat(1, 1fr);
         gap: 60px;
-        max-width: 400px;
+        max-width: 100%;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+    }
+
+    .single__project-content {
+        margin-top: 10px;
     }
 
     .single__project-image {
         height: 315px;
-    }
-
-    .section__heading {
-        align-items: center;
     }
 
     .navbar-toggler {
