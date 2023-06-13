@@ -544,6 +544,12 @@ footer {
     margin-bottom: 25px;
 }
 
+.single__content-subhead h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 .single__content h1 span,
 .single__content h2 span {
     display: block;
@@ -639,10 +645,6 @@ footer {
     .single__content-image {
         margin-top: 50px;
         height: 500px;
-    }
-
-    .single__content p {
-        font-size: 20px;
     }
 }
 
@@ -798,16 +800,12 @@ footer {
         margin-top: 30px;
     }
 
-    .single__content p {
-        font-size: 18px;
-    }
-
-    .single__content {
-        margin-bottom: 100px;
-    }
-
     .single__content-image {
         height: 230px;
+    }
+
+    .single__content-subhead h3 {
+        font-size: 20px;
     }
 }
 /* Responsive Code */

@@ -22,7 +22,7 @@ const Footer = () => {
                 duration: 0.8,
                 filter: "blur(6px)",
                 ease: "power2.out",
-                stagger: 0.3,
+                stagger: 0.4,
                 scrollTrigger: {
                     trigger: project,
                     start: "top 80%",

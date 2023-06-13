@@ -7,34 +7,32 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Legacy = () => {
-    // useEffect(() => {
-    //     const contents = document.querySelectorAll(".other__fade-in");
+    useEffect(() => {
+        const innerContents = document.querySelectorAll(".other__fade-in");
 
-    //     gsap.to(".other__hero-area", { opacity: 1, duration: 3 });
+        gsap.to(".other__hero-area", { opacity: 1, duration: 3 });
 
-    //     contents.forEach((content) => {
-    //         const elements = content.querySelectorAll(
-    //             "h2, p, .single__content-image"
-    //         );
+        innerContents.forEach((content) => {
+            const innerElements = content.querySelectorAll(
+                "h1, h2, h3, p, .single__content-image"
+            );
 
-    //         console.log(elements);
-
-    //         elements.forEach((element) => {
-    //             gsap.from(element, {
-    //                 opacity: 0,
-    //                 filter: "blur(6px)",
-    //                 stagger: 0.2,
-    //                 ease: "power2.out",
-    //                 duration: 0.8,
-    //                 scrollTrigger: {
-    //                     trigger: element,
-    //                     start: "top 80%",
-    //                     toggleActions: "play none none none",
-    //                 },
-    //             });
-    //         });
-    //     });
-    // }, []);
+            innerElements.forEach((element) => {
+                gsap.from(element, {
+                    opacity: 0,
+                    filter: "blur(6px)",
+                    stagger: 0.25,
+                    ease: "power2.out",
+                    duration: 0.8,
+                    scrollTrigger: {
+                        trigger: element,
+                        start: "top 80%",
+                        toggleActions: "play none none none",
+                    },
+                });
+            });
+        });
+    }, []);
 
     return (
         <section className="other__hero-area">
@@ -43,7 +41,7 @@ const Legacy = () => {
             <div className="container">
                 <div className="other__hero">
                     {/* Single Content */}
-                    <div className="single__content">
+                    <div className="single__content other__fade-in">
                         <h1>The Thunderhouse Legacy</h1>
 
                         <div className="single__content-subhead">
