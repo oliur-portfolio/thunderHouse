@@ -13,11 +13,11 @@ const nextConfig = {
                 ],
             },
             {
-                source: "/_next/static/(.*)",
+                source: "/_next/(.*)",
                 headers: [
                     {
                         key: "Cache-Control",
-                        value: "public, max-age=604800, immutable",
+                        value: "public, max-age=0, s-maxage=604800, stale-while-revalidate=86400",
                     },
                 ],
             },
